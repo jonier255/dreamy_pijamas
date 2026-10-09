@@ -1,5 +1,5 @@
-import { Category, Product, products } from "@/lib/products";
-import { Eyebrow } from "@/components/ui/eyebrow";
+import { Category, products } from "../../lib/products";
+import { Eyebrow } from "../ui/eyebrow";
 import { ProductCard } from "./product-card";
 import { ProductSkeleton } from "./product-skeleton";
 

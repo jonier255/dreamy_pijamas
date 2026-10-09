@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { StructuredData } from "@/components/seo/structured-data";
-import { SITE_URL } from "@/lib/site-config";
+import { StructuredData } from "../components/seo/structured-data";
+import { SITE_URL } from "../lib/site-config";
 import "./globals.css";
 
 export const metadata: Metadata = {

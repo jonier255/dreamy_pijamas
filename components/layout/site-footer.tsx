@@ -1,5 +1,5 @@
-import { WHATSAPP_NUMBER } from "@/lib/site-config";
-import { BrandLogo } from "@/components/ui/brand-logo";
+import { WHATSAPP_NUMBER } from "../../lib/site-config";
+import { BrandLogo } from "../ui/brand-logo";
 
 const footerGroups = [
   {
@@ -21,8 +21,8 @@ const footerGroups = [
   {
     title: "Síguenos",
     links: [
-      ["Instagram ↗", "#inicio"],
-      ["TikTok ↗", "#inicio"],
+      ["Instagram ↗", "https://www.instagram.com/dreamy.pijamasss?xtok=MThibnhlNHpnbGNyMQ=="],
+      ["TikTok ↗", "https://www.tiktok.com/@dreamy.pijamas.col?_r=1&_t=ZS-9AP2BoJCmOr"],
       ["WhatsApp ↗", "https://wa.me/" + WHATSAPP_NUMBER],
     ],
   },

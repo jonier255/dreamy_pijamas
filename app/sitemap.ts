@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL } from "@/lib/site-config";
+import { SITE_URL } from "../lib/site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
       images: [
         SITE_URL + "/opengraph-image",
-        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+        "https://plus.unsplash.com/premium_photo-1683141091801-abc4d06a9c50?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       ],
     },
   ];

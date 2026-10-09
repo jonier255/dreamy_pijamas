@@ -1,6 +1,6 @@
 "use client";
 
-import { WHATSAPP_NUMBER } from "@/lib/site-config";
+import { WHATSAPP_NUMBER } from "../../lib/site-config";
 
 type SiteHeaderProps = {
   menuOpen: boolean;
@@ -21,14 +21,12 @@ export function SiteHeader({
 }: SiteHeaderProps) {
   return (
     <>
-      <div className="topbar">
-        <p>Envíos gratis por compras superiores a $150.000 · Hecho con amor ♡</p>
-      </div>
+      
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Dreamy Pijamas, inicio">
           <span className="brand-star">✦</span>
           <span>
-            <strong>dreamy</strong>
+            <strong>Dreamy</strong>
             <em>pijamas</em>
           </span>
         </a>

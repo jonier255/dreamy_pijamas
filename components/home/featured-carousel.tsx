@@ -1,5 +1,5 @@
-import { Eyebrow } from "@/components/ui/eyebrow";
-import { products, Product } from "@/lib/products";
+import { Eyebrow } from "../ui/eyebrow";
+import { products, Product } from "../../lib/products";
 
 type FeaturedCarouselProps = {
   activeSlide: number;

@@ -1,4 +1,4 @@
-import { Product } from "@/lib/products";
+import { Product } from "../../lib/products";
 
 type ProductCardProps = {
   product: Product;

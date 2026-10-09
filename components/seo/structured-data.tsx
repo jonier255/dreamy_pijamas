@@ -1,5 +1,5 @@
-import { products } from "@/lib/products";
-import { SITE_CONFIG, SITE_URL } from "@/lib/site-config";
+import { products } from "../../lib/products";
+import { SITE_CONFIG, SITE_URL } from "../../lib/site-config";
 
 export function StructuredData() {
   const data = {

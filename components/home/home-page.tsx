@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Category, getWhatsAppUrl, products } from "@/lib/products";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
+import { Category, getWhatsAppUrl, products } from "../../lib/products";
+import { SiteHeader } from "../layout/site-header";
+import { SiteFooter } from "../layout/site-footer";
 import { FeaturedCarousel } from "./featured-carousel";
 import { HeroSection } from "./hero-section";
 import { ProductCatalog } from "./product-catalog";

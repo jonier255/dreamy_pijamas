@@ -1,4 +1,4 @@
-import { Eyebrow } from "@/components/ui/eyebrow";
+import { Eyebrow } from "../ui/eyebrow";
 
 export function SeoIntro() {
   return (
