@@ -10,7 +10,7 @@ export function HeroSection() {
           Pijamas suaves, detalles bonitos y todo lo que necesitas para
           convertir cada noche en tu momento favorito.
         </p>
-        <a className="button button-dark" href="#coleccion">
+        <a className="button button-dark" href="#catalogo">
           Ver la colección <span>↗</span>
         </a>
         <div className="hero-note">

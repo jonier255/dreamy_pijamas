@@ -5,7 +5,7 @@ const footerGroups = [
   {
     title: "Explora",
     links: [
-      ["Pijamas", "#coleccion"],
+      ["Pijamas", "#catalogo"],
       ["Accesorios", "#catalogo"],
       ["Regalos", "#catalogo"],
     ],

@@ -9,7 +9,7 @@ type SiteHeaderProps = {
 };
 
 const navigation = [
-  { label: "Favoritas", href: "#coleccion" },
+  { label: "Pijamas", href: "#catalogo" },
   { label: "Catálogo", href: "#catalogo" },
   { label: "Cómo comprar", href: "#como-comprar" },
 ];
@@ -45,7 +45,7 @@ export function SiteHeader({
           aria-label="Navegación principal"
         >
           {navigation.map((item) => (
-            <a key={item.href} href={item.href} onClick={onNavigate}>
+            <a key={item.label} href={item.href} onClick={onNavigate}>
               {item.label}
             </a>
           ))}

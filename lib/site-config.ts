@@ -1,7 +1,7 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.dreamypijamas.com";
 
-export const WHATSAPP_NUMBER = "573001234567";
+export const WHATSAPP_NUMBER = "573145123442";
 
 export const SITE_CONFIG = {
   name: "Dreamy Pijamas",

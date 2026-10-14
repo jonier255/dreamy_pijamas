@@ -1,3 +1,5 @@
+import { WHATSAPP_NUMBER } from "./site-config";
+
 export type Category = "Todos" | "Pijamas" | "Accesorios" | "Regalos";
 
 export type Product = {
@@ -11,35 +13,85 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    name: "Pijama Cherry Bloom",
+    name: "Pijama Dreamy · Modelo 1",
     category: "Pijamas",
-    price: "$89.900",
-    tag: "Más vendida",
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=85",
-    description: "Satén ligero · Tallas S a XL",
+    price: "$30.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_1_jrd6qu.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
   },
   {
-    name: "Set Cozy Cloud",
+    name: "Pijama Dreamy · Modelo 4",
     category: "Pijamas",
-    price: "$79.900",
-    tag: "Nuevo",
-    image: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=900&q=85",
-    description: "Algodón suave · Tallas S a XXL",
+    price: "$30.000",
+    tag: "Disponible",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012954/pijama_4_gmixtl.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
   },
   {
-    name: "Pijama Soft Blush",
+    name: "Pijama Dreamy · Modelo 3",
     category: "Pijamas",
-    price: "$84.900",
-    tag: "Favorita",
-    image: "https://images.unsplash.com/photo-1583845112203-454c70c84f7b?auto=format&fit=crop&w=900&q=85",
-    description: "Modal premium · Tallas S a L",
+    price: "$55.000",
+    tag: "Especial",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012954/pijama_3_undshp.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
+  },
+  {
+    name: "Pijama Dreamy · Modelo 2",
+    category: "Pijamas",
+    price: "$40.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_2_sb1hdy.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
+  },
+   {
+    name: "Pijama Dreamy · Modelo 5",
+    category: "Pijamas",
+    price: "$40.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_8_ilwn5c.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
+  },
+
+   {
+    name: "Pijama Dreamy · Modelo 6",
+    category: "Pijamas",
+    price: "$40.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012954/pijama_5_xsfvkn.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
+  },
+   {
+    name: "Pijama Dreamy · Modelo 7",
+    category: "Pijamas",
+    price: "$40.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_7_xuhfzb.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
+  },
+   {
+    name: "Pijama Dreamy · Modelo 8",
+    category: "Pijamas",
+    price: "$40.000",
+    tag: "Nueva",
+    image:
+      "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_6_ujkhnj.jpg",
+    description: "Pijama de colección · Consulta tallas por WhatsApp",
   },
   {
     name: "Antifaz Moonlight",
     category: "Accesorios",
     price: "$29.900",
     tag: "Pequeño lujo",
-    image: "https://images.unsplash.com/photo-1591343395082-e120087004b4?auto=format&fit=crop&w=900&q=85",
+    image:
+      "https://images.unsplash.com/photo-1591343395082-e120087004b4?auto=format&fit=crop&w=900&q=85",
     description: "Satén acolchado · Varios colores",
   },
   {
@@ -47,7 +99,8 @@ export const products: Product[] = [
     category: "Accesorios",
     price: "$19.900",
     tag: "Cozy",
-    image: "https://images.unsplash.com/photo-1582966772680-860e372bb558?auto=format&fit=crop&w=900&q=85",
+    image:
+      "https://images.unsplash.com/photo-1582966772680-860e372bb558?auto=format&fit=crop&w=900&q=85",
     description: "Tejido suave · Talla única",
   },
   {
@@ -55,7 +108,8 @@ export const products: Product[] = [
     category: "Regalos",
     price: "$119.900",
     tag: "Para regalar",
-    image: "https://images.unsplash.com/photo-1600369671236-e74521d4b7ad?auto=format&fit=crop&w=900&q=85",
+    image:
+      "https://images.unsplash.com/photo-1600369671236-e74521d4b7ad?auto=format&fit=crop&w=900&q=85",
     description: "Pijama + antifaz + tarjeta",
   },
 ];
@@ -85,5 +139,3 @@ export function getWhatsAppUrl(productName: string) {
 
   return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + message;
 }
-import { WHATSAPP_NUMBER } from "./site-config";
-

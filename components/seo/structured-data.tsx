@@ -33,7 +33,7 @@ export function StructuredData() {
           "@type": "ListItem",
           position: index + 1,
           name: product.name,
-          url: SITE_URL + "/#coleccion",
+          url: SITE_URL + "/#catalogo",
         })),
       },
     ],
