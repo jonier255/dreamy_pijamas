@@ -51,7 +51,7 @@ export const products: Product[] = [
    {
     name: "Pijama Dreamy · Modelo 5",
     category: "Pijamas",
-    price: "$40.000",
+    price: "$55.000",
     tag: "Nueva",
     image:
       "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_8_ilwn5c.jpg",
@@ -61,7 +61,7 @@ export const products: Product[] = [
    {
     name: "Pijama Dreamy · Modelo 6",
     category: "Pijamas",
-    price: "$40.000",
+    price: "$55.000",
     tag: "Nueva",
     image:
       "https://res.cloudinary.com/duyneiyve/image/upload/v1792012954/pijama_5_xsfvkn.jpg",
@@ -70,7 +70,7 @@ export const products: Product[] = [
    {
     name: "Pijama Dreamy · Modelo 7",
     category: "Pijamas",
-    price: "$40.000",
+    price: "$55.000",
     tag: "Nueva",
     image:
       "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_7_xuhfzb.jpg",
@@ -79,7 +79,7 @@ export const products: Product[] = [
    {
     name: "Pijama Dreamy · Modelo 8",
     category: "Pijamas",
-    price: "$40.000",
+    price: "$60.000",
     tag: "Nueva",
     image:
       "https://res.cloudinary.com/duyneiyve/image/upload/v1792012953/pijama_6_ujkhnj.jpg",
