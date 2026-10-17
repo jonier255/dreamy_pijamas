@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="hero-section" id="inicio">
       <div className="hero-copy">
-        <Eyebrow withLines>colección nocturna 2024</Eyebrow>
+        <Eyebrow withLines>colección nocturna 2026</Eyebrow>
         <h1>Pijamas para<br /><i>dormir bonito.</i></h1>
         <p className="hero-description">
           Pijamas suaves, detalles bonitos y todo lo que necesitas para

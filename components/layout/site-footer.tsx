@@ -44,7 +44,7 @@ export function SiteFooter() {
         </div>
       ))}
       <div className="footer-bottom">
-        <span>© 2024 Dreamy Pijamas</span>
+        <span>© 2026 Dreamy Pijamas</span>
         <span>Hecho para dormir bonito <i>♡</i></span>
       </div>
     </footer>
